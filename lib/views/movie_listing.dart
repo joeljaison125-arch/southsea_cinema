@@ -18,8 +18,15 @@ class MovieListing extends StatelessWidget {
       body: Center(
         child: Container(
           width: 300,
-          height: 100,
-          child: const Text('Southsea Cinema'),
+          padding: const EdgeInsets.all(20),
+          child: const Column(
+            children: [
+              Text('Southsea Cinema'),
+              Text('Movie 1'),
+              Text('Movie 2'),
+              Text('Movie 3'),
+            ],
+          ),
         ),
       ),
     );
