@@ -21,7 +21,13 @@ class MovieListing extends StatelessWidget {
           padding: const EdgeInsets.all(20),
           child: const Column(
             children: [
-              Text('Southsea Cinema'),
+              Text(
+                'Southsea Cinema',
+                style: TextStyle(
+                  fontSize: 24,
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
               SizedBox(height: 20),
               Text('Movie 1'),
               SizedBox(height: 10),
