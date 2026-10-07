@@ -15,8 +15,12 @@ class MovieListing extends StatelessWidget {
         elevation: 0,
       ),
       drawer: const NavDrawer(),
-      body: const Center(
-        child: Text('Southsea Cinema'),
+      body: Center(
+        child: Container(
+          width: 300,
+          height: 100,
+          child: const Text('Southsea Cinema'),
+        ),
       ),
     );
   }
