@@ -29,11 +29,13 @@ class MovieListing extends StatelessWidget {
                 ),
               ),
               SizedBox(height: 20),
-              Text('Movie 1'),
-              SizedBox(height: 10),
-              Text('Movie 2'),
-              SizedBox(height: 10),
-              Text('Movie 3'),
+              Row(
+                children: [
+                  Text('Movie 1'),
+                  Text('Movie 2'),
+                  Text('Movie 3'),
+                ],
+              ),
             ],
           ),
         ),
