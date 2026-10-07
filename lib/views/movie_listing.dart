@@ -30,6 +30,7 @@ class MovieListing extends StatelessWidget {
               ),
               SizedBox(height: 20),
               Row(
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
                   Text('Movie 1'),
                   Text('Movie 2'),
